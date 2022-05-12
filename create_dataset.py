@@ -11,7 +11,7 @@ def main(args):
     sample_id = 0
     sample_length = 512
     max_samples_from_doc = 3
-    total_samples = 1_000_000
+    total_samples = 1_200_000
     trans_chars = "'\",.:;-_*?/\n"
 
     with open(args.output_file, 'wt') as outfile:
